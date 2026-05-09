@@ -1,139 +1,110 @@
-### Hey there 👋
-<br />
-<h1 align="center"> Nikhil Karthik - @nikhilkarthik24 </h1>
+```console
+$ whoami
+nikhil-karthik
 
----
+$ cat .bio
+R&D Engineer @ FLAM · CSE @ IIIT Dharwad.
+Building mathematically grounded, performance-oriented systems —
+visual SLAM, rendering pipelines, and the scaffolding around them.
+```
 
-### 👨‍💻 &nbsp;About Me
+```
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║         geometry  →  optimization  →  pixels             ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-🎓 &nbsp;Computer Science Engineering Graduate from IIIT Dharwad  
-🔬 &nbsp;Engineer working on Computer Vision, SLAM, 3D Geometry & Graphics  
-🧠 &nbsp;Deeply interested in Mathematics, Optimization, and Systems Programming  
-🎮 &nbsp;Passionate about Real-time Rendering, Game Engines & Simulation  
+```console
+$ cat ~/.current
+```
 
-I enjoy building high-performance systems — from visual SLAM pipelines to rendering engines — focusing on clean architecture, mathematical correctness, and scalable builds.
+```c++
+struct WhatImWorkingOn {
+    SLAM       pose_estimation;   // Lie groups: SO(3), SE(3), bundle adjustment
+    Optimizer  numerical;         // Gauss–Newton, Levenberg–Marquardt, sparse solvers
+    Geometry   multi_view;        // epipolar constraints, calibration
+    Rendering  realtime;          // OpenGL · Sokol · Metal · Vulkan
+    Plumbing   load_bearing;      // build tooling, deployment, profiling
+};
+```
 
----
+```console
+$ ls ~/stack/
+```
 
-### 🚀 &nbsp;Current Focus
+```
+systems & graphics/
+├── languages   c · c++
+├── build       cmake · ninja
+├── graphics    opengl · vulkan · metal · sokol
+└── platform    linux
 
-- Visual SLAM & Pose Estimation
-- Lie Groups (SO(3), SE(3)) and optimization (Gauss-Newton, LM)
-- Multi-view geometry & epipolar constraints
-- Rendering pipelines using OpenGL / Sokol / Filament
-- High-performance C++ systems
-- Build tooling & deployment pipelines
+ml & vision/
+├── core        python · opencv · eigen
+└── frameworks  tensorflow · keras · huggingface
 
----
+web/
+├── languages   typescript · javascript · html · css
+├── frameworks  next.js · node
+└── graphics    webgl · webgpu
 
-### 🛠 &nbsp;Core Tech Stack
+infra & deploy/
+├── daily       docker · git · github actions
+└── familiar    terraform · kafka
+```
 
----
+<details>
+<summary><code>$ cat ~/stack/badges.md</code></summary>
 
-#### 🧮 Systems & Graphics
+&nbsp;
 
-<div align="center">
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Ninja](https://img.shields.io/badge/-Ninja-323330?style=flat-square)
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![Vulkan](https://img.shields.io/badge/-Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white)
+![Metal](https://img.shields.io/badge/-Metal-000000?style=flat-square&logo=apple&logoColor=white)
+![Sokol](https://img.shields.io/badge/-Sokol-1F2937?style=flat-square)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="45" width="55" alt="cplusplus logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="45" width="55" alt="c logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg" height="45" width="55" alt="opengl logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vulkan/vulkan-original.svg" height="45" width="55" alt="vulkan logo"/>
-  
-</div>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Eigen](https://img.shields.io/badge/-Eigen-1F2937?style=flat-square)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-<br/>
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![WebGL](https://img.shields.io/badge/-WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
+![WebGPU](https://img.shields.io/badge/-WebGPU-005A9C?style=flat-square)
 
-#### 👁️ Computer Vision & ML
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 
-<div align="center">
+</details>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" width="55" alt="python logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="45" width="55" alt="tensorflow logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="45" width="55" alt="opencv logo"/>
+```console
+$ cat ~/.contact
+```
 
-</div>
+```
+linkedin   →  linkedin.com/in/nikhilkarthik24
+twitter    →  twitter.com/nikhilkarthik24
+```
 
-<br/>
+[linkedin](https://www.linkedin.com/in/nikhilkarthik24/) · [twitter](https://twitter.com/nikhilkarthik24/)
 
-#### 🌐 Web & Application Dev
-
-<div align="center">
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="45" width="55" alt="typescript logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" width="55" alt="javascript logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" width="55" alt="react logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="45" width="55" alt="nextjs logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="45" width="55" alt="nodejs logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" height="45" width="55" alt="angular logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="45" width="55" alt="django logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="45" width="55" alt="flask logo"/>
-
-</div>
-
-<br/>
-
-#### ⚙️ Build & DevOps
-
-<div align="center">
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="45" width="55" alt="cmake logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="45" width="55" alt="github actions logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" width="55" alt="docker logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="45" width="55" alt="linux logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" width="55" alt="git logo"/>
-
-</div>
-
-<br/>
-
-#### 🗄️ Databases
-
-<div align="center">
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" width="55" alt="postgresql logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45" width="55" alt="mysql logo"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="45" width="55" alt="mongodb logo"/>
-
-</div>
-
----
-
-### 🧠 &nbsp;Areas of Strong Interest
-
-- Geometric Computer Vision
-- SLAM & State Estimation
-- Numerical Optimization
-- Real-time Rendering
-- Engine Architecture
-- Simulation Systems
-- Scientific Computing
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?hide_title=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&username=C-NikhilKarthik" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?layout=compact&theme=tokyonight&username=C-NikhilKarthik" height="150"/> -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=C-NikhilKarthik&theme=tokyonight" height="150"/>
-</div>
-
----
-
-### 🌍 Connect With Me
-
-<div align="center">
-  <a href="https://twitter.com/nikhilkarthik24/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40"/>
-  </a>
-  <a href="https://www.linkedin.com/in/nikhilkarthik24/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40"/>
-  </a>
-</div>
-
----
-
-### ✨ Philosophy
-
-> Build systems that are mathematically grounded, computationally efficient,  
-> and engineered to scale.
+```console
+$ uptime
+currently: rotating things in 3D for a living.
+$ _
+```
